@@ -12,6 +12,16 @@ import Galeria from './pages/Galeria'
 import Bitacora from './pages/Bitacora'
 import Arbol from './pages/Arbol'
 import './App.css'
+// Forzar importación de todos los CSS
+import './pages/Arbol.css'
+import './pages/Api.css'
+import './pages/Bitacora.css'
+import './pages/Explorador.css'
+import './pages/Galeria.css'
+import './pages/Home.css'
+import './components/ArcadeIntro.css'
+import './components/Perfil.css'
+import './components/Sidebar.css'
 
 function App() {
   const [started, setStarted] = useState(false)
