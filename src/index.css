@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Bangers&family=Share+Tech+Mono&display=swap');
 
-/* v2.0 - CSS Bundle Fix */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,15 +10,3 @@ body {
   background: #0a0a0c;
   overflow-x: hidden;
 }
-
-/* Importar todos los estilos */
-@import './App.css';
-@import './pages/Home.css';
-@import './pages/Api.css';
-@import './pages/Arbol.css';
-@import './pages/Bitacora.css';
-@import './pages/Explorador.css';
-@import './pages/Galeria.css';
-@import './components/ArcadeIntro.css';
-@import './components/Perfil.css';
-@import './components/Sidebar.css';
