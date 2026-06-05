@@ -1,3 +1,4 @@
+import './Arbol.css'
 
 function Arbol() {
   return (
